@@ -34,11 +34,17 @@ footer {
 	height: 350px;
 }
 
-@include media-breakpoint-up(xs) { ... }
-@include media-breakpoint-up(sm) { ... }
-@include media-breakpoint-up(md) { 
-	.container {
-		width: 66%;
+
+
+
+@media (min-width: 768px) { 
+	#myNav {
+		float: right;
 	}
 }
+
+
+
+
+
 
