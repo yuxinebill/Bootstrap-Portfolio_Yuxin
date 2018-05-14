@@ -4,6 +4,10 @@ body {
 	color: #666666;
 }
 
+p {
+	font-size: 14px;
+}
+
 h1 {
   font-size: 26px;
 }
@@ -14,7 +18,4 @@ h2 {
 
 footer {
 	height: 50px;
-	font-size: 8px;
-	border-top: solid 5px;
 }
-
