@@ -33,3 +33,12 @@ footer {
 	width: 350px;
 	height: 350px;
 }
+
+@include media-breakpoint-up(xs) { ... }
+@include media-breakpoint-up(sm) { ... }
+@include media-breakpoint-up(md) { 
+	.container {
+		width: 66%;
+	}
+}
+

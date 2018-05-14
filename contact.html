@@ -23,40 +23,59 @@
   <!-- header -->
   <header>
     <div class="jumbotron jumbotron-fluid bg-white border-bottom p-0">
-      <div class="container bg-info bg-white p-0">
-          <div class="d-flex justify-content-end">
-             <div class="mr-auto px-5 py-3  bg-info text-white"> <h1>Yuxin He</h1></div>
-           <div class="align-self-end"><a class="nav-link text-secondary" href="index.html">About</a></div>
-            <div class="align-self-end"><a class="nav-link text-secondary" href="portfolio.html">Portfolio</a></div>
-            <div class="align-self-end"><a class="nav-link active text-dark" href="contact.html">Contact</a></div>
-          </div>        
+      <div class=".container-fluid bg-info bg-white p-0">
+        <div class="row">
+
+          <!-- xs and sm, container will take full width-->
+          <!-- over md, container will take full width-->
+          <div class="col-xs-12 col-sm-12 col-md-8 m-auto"> 
+
+            <div class="d-flex justify-content-end">
+               <div class="mr-auto px-5 py-3  bg-info text-white"> <h1>Yuxin He</h1></div>
+             <div class="align-self-end"><a class="nav-link text-secondary" href="index.html">About</a></div>
+              <div class="align-self-end"><a class="nav-link text-secondary" href="portfolio.html">Portfolio</a></div>
+              <div class="align-self-end"><a class="nav-link active text-dark" href="contact.html">Contact</a></div>
+            </div>
+
+          </div>
+
+        </div>        
       </div>
     </div>
  </header>
 
   <!-- main info -->
-  <section class="container bg-white p-4">
-    <div class="clearfix">
-      <h2 class="text-info font-weight-bold">Contact</h2>
-      <hr>
-      <!-- form -->
-      <form>
-        <div class="form-group">
-          <label class="font-weight-bold" for="exampleInputEmail1">Name:</label>
-          <input type="name" class="form-control" id="user_name" placeholder="Your name ...">
+  <section class="container-fluid bg-white p-4">
+
+    <div class="row">
+
+      <!-- xs and sm, container will take full width-->
+      <!-- over md, container will take full width-->
+      <div class="col-xs-12 col-sm-12 col-md-8 m-auto"> 
+
+        <div class="clearfix">
+          <h2 class="text-info font-weight-bold">Contact</h2>
+          <hr>
+          <!-- form -->
+          <form>
+            <div class="form-group">
+              <label class="font-weight-bold" for="exampleInputEmail1">Name:</label>
+              <input type="name" class="form-control" id="user_name" placeholder="Your name ...">
+            </div>
+            <div class="form-group">
+              <label class="font-weight-bold" for="user_email">Email</label>
+              <input type="email" class="form-control" id="user_email" placeholder="Your email ...">
+            </div>
+            <div class="form-group">
+              <label class="font-weight-bold">Message:</label>
+              <textarea class="form-control" id="user_message" rows="3" placeholder="Feel free to contact me ..."></textarea>
+            </div>
+            <!--button-->
+            <button type="submit" class="btn btn-info">Submit</button>
+          </form>
+
         </div>
-        <div class="form-group">
-          <label class="font-weight-bold" for="user_email">Email</label>
-          <input type="email" class="form-control" id="user_email" placeholder="Your email ...">
-        </div>
-        <div class="form-group">
-          <label class="font-weight-bold">Message:</label>
-          <textarea class="form-control" id="user_message" rows="3" placeholder="Feel free to contact me ..."></textarea>
-        </div>
-        <!--button-->
-        <button type="submit" class="btn btn-info">Submit</button>
-      </form>
-           
+      </div>
     </div>
   </section>
 
